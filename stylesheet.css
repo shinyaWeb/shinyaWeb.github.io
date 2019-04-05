@@ -94,10 +94,14 @@ header {
   padding: 10px 0px 10px 10px;
   float: left;
   text-align: center; }
-  .share p {
-    font-size: 5px; }
   .share i {
-    padding-right: 4px; }
+    padding-right: 4px;
+    padding-left: 10px;
+    display: inline;}
+
+.sharetitle {
+  font-size: 5px;
+}
 
 .facebook {
   background-color: #1e3261; }
@@ -131,6 +135,11 @@ header {
     position: relative;
     top: 2px;
     box-shadow: none; }
+
+.btntext {
+  display: inline;
+  font-size: 15px;
+}
 
 .profile {
   margin-top: 40px;
@@ -198,5 +207,3 @@ footer {
     display: inline; }
     .footer-right a:hover {
       color: rgba(51, 255, 153, 0.5); }
-
-/*# sourceMappingURL=stylesheet.css.map */
