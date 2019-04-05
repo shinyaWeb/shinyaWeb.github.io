@@ -1,0 +1,40 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1140px) {
+  .header-left {
+    font-size: 15px; }
+
+    .header-right a {
+      padding: 0 10px;
+      font-size: 13px; }
+
+  .top-wrapper h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    padding-top: 200px; }
+
+  .btntext {
+    display: none;
+  }
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 875px) {
+  .container {
+    width: 90%;
+    padding: 0 15px;
+    margin: 0 auto; }
+
+  .header-left {
+    font-size: 15px;
+    line-height: 90px; }
+
+  .header-right {
+    display:none;
+  }
+  .top-wrapper h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-top: 200px; }
+
+.profile img {
+    transform: rotate(-90deg);
+}
