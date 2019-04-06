@@ -42,7 +42,6 @@ header {
   margin: 0 auto; }
 
 .top-wrapper {
-  background-image: url(photo0000-1984.jpg);
   background-size: cover;
   height: 500px;
   color: white;
@@ -57,6 +56,15 @@ header {
     padding-top: 200px; }
   .top-wrapper p {
     opacity: 0.8; }
+
+.sea {
+  background-image: url(photo0000-1984.jpg); }
+
+.computer {
+  background-image: url(computer.jpg); }
+
+.computertext {
+  color: yellow; }
 
 main {
   margin-bottom: 20px; }
