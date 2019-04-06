@@ -85,12 +85,22 @@ main {
 .attention {
   font-size: 2px; }
 
-.notice {
+.noticeb {
   display: inline;
-  text-decoration: underline red; }
+  color: blue; }
+
+.noticer {
+  display: inline;
+  color: red; }
+
+.example {
+  border-left: 5px solid black; }
 
 .homelink {
-  margin: 30px auto; }
+  margin: 30px 0;
+  text-align: center; }
+  .homelink a {
+    margin: 0 30px; }
 
 .share {
   width: 20%;
@@ -182,3 +192,5 @@ footer {
     display: inline; }
     .footer-right a:hover {
       color: rgba(51, 255, 153, 0.5); }
+
+/*# sourceMappingURL=stylesheet.css.map */
