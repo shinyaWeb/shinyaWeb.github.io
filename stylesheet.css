@@ -13,9 +13,9 @@ a {
 
 header {
   height: 90px;
+  width: 100%;
   background-color: rgba(51, 255, 153, 0.9);
   color: #fff;
-  width: 100%;
   position: fixed;
   top: 0;
   z-index: 10; }
@@ -63,7 +63,7 @@ header {
 .computer {
   background-image: url(computer.jpg); }
 
-.computertext {
+.computer-text {
   color: yellow; }
 
 main {
@@ -72,13 +72,13 @@ main {
 .maincontainer {
   width: 50%;
   float: left;
-  padding: 0 10px;
-  text-align: center; }
+  padding: 0 10px; }
 
 .subtitle {
   border: 2px solid #dddddd;
   border-radius: 6px;
-  background-color: white; }
+  background-color: white;
+  text-align: center; }
 
 .article {
   border: 2px solid #dddddd;
@@ -109,6 +109,49 @@ main {
   text-align: center; }
   .homelink a {
     margin: 0 30px; }
+
+.top-box {
+  border: 2px solid #dddddd;
+  border-radius: 6px;
+  background-color: white; }
+
+.imagebox {
+  float: left;
+  width: 22%; }
+  .imagebox img {
+    padding: 3px; }
+
+.introduction {
+  float: left;
+  width: 78%; }
+  .introduction a {
+    height: 80%;
+    padding: 30px 30px 10px 30px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    border-bottom: 2px solid black;
+    display: block; }
+  .introduction p {
+    height: 20%;
+    margin: 0;
+    padding: 3px 0 10px 30px; }
+
+.category-box {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  background-image: url(computer-medium.jpg);
+  text-align: center;
+  position: relative; }
+  .category-box p {
+    font-family: "Courier New";
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 55px;
+    left: 26px; }
 
 .share {
   width: 20%;
