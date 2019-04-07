@@ -130,6 +130,11 @@ main {
   .twitter:hover {
     background-color: rgba(0, 172, 237, 0.5); }
 
+.line {
+  background-color: #5ae628; }
+  .line:hover {
+    background-color: rgba(90, 230, 40, 0.5); }
+
 .pocket {
   background-color: #ef4056; }
   .pocket:hover {
@@ -164,7 +169,6 @@ main {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0 10px;
-    transform: rotate(90deg);
     border-radius: 50%; }
   .profile p {
     display: inline-block;
