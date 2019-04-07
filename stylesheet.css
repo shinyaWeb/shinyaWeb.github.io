@@ -75,6 +75,7 @@ main {
   padding: 0 10px; }
 
 .subtitle {
+  width: 100%;
   border: 2px solid #dddddd;
   border-radius: 6px;
   background-color: white;
@@ -125,7 +126,11 @@ main {
   float: left;
   width: 22%; }
   .imagebox img {
-    padding: 3px; }
+    padding: 3px;
+    width:95%;
+    height: auto;
+    box-sizing: border-box;
+    margin:0 auto;}
 
 .introduction {
   float: left;
@@ -135,7 +140,6 @@ main {
     padding: 30px 30px 10px 30px;
     margin: 0;
     font-weight: bold;
-    font-size: 25px;
     color: black;
     border-bottom: 2px solid black;
     display: block; }
@@ -144,20 +148,28 @@ main {
     margin: 0;
     padding: 3px 0 10px 30px; }
 
-.category-box {
-  width: 230px;
-  height: 230px;
-  border-radius: 50%;
-  background-image: url(computer-medium.jpg);
+.category-list {
   text-align: center;
-  position: relative; }
-  .category-box p {
+}
+
+.category-box {
+  float:left;
+  width: 33%;
+  height: auto;
+  position: relative;
+  text-align: center; }
+  .category-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .category-box h3 {
     font-family: "Courier New";
-    font-size: 30px;
     letter-spacing: 5px;
     position: absolute;
-    top: 55px;
-    left: 26px; }
+    top: 40%;
+    width: 100%;
+    z-index: 10;}
 
 .share {
   width: 20%;
