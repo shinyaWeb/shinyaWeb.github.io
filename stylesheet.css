@@ -73,6 +73,9 @@ header {
 .computer-text {
   color: yellow; }
 
+.study-text {
+  color: white; }
+
 main {
   margin-bottom: 20px; }
 
@@ -130,6 +133,7 @@ main {
 .top-box {
   border: 2px solid #dddddd;
   border-radius: 6px;
+  margin-bottom: 10px;
   background-color: white; }
 
 .imagebox {
@@ -166,7 +170,7 @@ main {
 
 .category-box {
   float: left;
-  width: 33%;
+  width: 20%;
   height: auto;
   position: relative;
   text-align: center; }
