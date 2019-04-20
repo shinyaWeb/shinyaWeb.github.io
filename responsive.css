@@ -19,5 +19,7 @@
   .top-wrapper h1 {
     font-size: 30px;
     letter-spacing: 3px; }
-
+  .profiletext p {
+    font-size: 12px;
+  }
 }
