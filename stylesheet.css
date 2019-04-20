@@ -28,13 +28,15 @@ header {
 .header-right {
   float: right;
   transition: all 0.5s; }
-  .header-right a {
-    color: white;
-    line-height: 90px;
-    padding: 0 25px;
-    display: inline-block; }
-    .header-right a:hover {
-      background-color: rgba(255, 255, 255, 0.5); }
+
+.header-right a {
+  color: white;
+  line-height: 90px;
+  padding: 0 25px;
+  display: inline-block; }
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.5); }
 
 .container {
   width: 75%;
@@ -49,19 +51,24 @@ header {
   margin-top: 90px;
   top: 90px;
   width: 100%; }
-  .top-wrapper h1 {
-    opacity: 0.8;
-    font-size: 45px;
-    letter-spacing: 5px;
-    padding-top: 200px; }
-  .top-wrapper p {
-    opacity: 0.8; }
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+  padding-top: 200px; }
+
+.top-wrapper p {
+  opacity: 0.8; }
 
 .sea {
   background-image: url(photo0000-1984.jpg); }
 
 .computer {
   background-image: url(computer.jpg); }
+
+.study {
+  background-image: url(study.jpg); }
 
 .computer-text {
   color: yellow; }
@@ -81,13 +88,15 @@ main {
   background-color: white;
   text-align: center;
   margin: 20px 0; }
-  .subtitle h1 {
-    padding-top: 10px;
-    margin: 0; }
-  .subtitle p {
-    text-align: right;
-    padding-right: 10px;
-    margin: 0; }
+
+.subtitle h1 {
+  padding-top: 10px;
+  margin: 0; }
+
+.subtitle p {
+  text-align: right;
+  padding-right: 10px;
+  margin: 0; }
 
 .article {
   border: 2px solid #dddddd;
@@ -114,8 +123,9 @@ main {
 .homelink {
   margin: 30px 0;
   text-align: center; }
-  .homelink a {
-    margin: 0 30px; }
+
+.homelink a {
+  margin: 0 30px; }
 
 .top-box {
   border: 2px solid #dddddd;
@@ -125,81 +135,90 @@ main {
 .imagebox {
   float: left;
   width: 22%; }
-  .imagebox img {
-    padding: 3px;
-    width:95%;
-    height: auto;
-    box-sizing: border-box;
-    margin:0 auto;}
+
+.imagebox img {
+  padding: 3px;
+  width: 95%;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0 auto; }
 
 .introduction {
   float: left;
   width: 78%; }
-  .introduction a {
-    height: 80%;
-    padding: 30px 30px 10px 30px;
-    margin: 0;
-    font-weight: bold;
-    color: black;
-    border-bottom: 2px solid black;
-    display: block; }
-  .introduction p {
-    height: 20%;
-    margin: 0;
-    padding: 3px 0 10px 30px; }
+
+.introduction a {
+  height: 80%;
+  padding: 30px 30px 10px 30px;
+  margin: 0;
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid black;
+  display: block; }
+
+.introduction p {
+  height: 20%;
+  margin: 0;
+  padding: 3px 0 10px 30px; }
 
 .category-list {
-  text-align: center;
-}
+  text-align: center; }
 
 .category-box {
-  float:left;
+  float: left;
   width: 33%;
   height: auto;
   position: relative;
   text-align: center; }
-  .category-box img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-  .category-box h3 {
-    font-family: "Courier New";
-    letter-spacing: 5px;
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    z-index: 10;}
+
+.category-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; }
+
+.category-box h3 {
+  font-family: "Courier New";
+  letter-spacing: 5px;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  z-index: 10; }
 
 .share {
   width: 20%;
   padding: 10px 0px 10px 10px;
   float: left;
   text-align: center; }
-  .share p {
-    font-size: 5px; }
-  .share i {
-    margin: 0 auto; }
+
+.share p {
+  font-size: 5px; }
+
+.share i {
+  margin: 0 auto; }
 
 .facebook {
   background-color: #1e3261; }
-  .facebook:hover {
-    background-color: rgba(30, 50, 97, 0.5); }
+
+.facebook:hover {
+  background-color: rgba(30, 50, 97, 0.5); }
 
 .twitter {
   background-color: #00aced; }
-  .twitter:hover {
-    background-color: rgba(0, 172, 237, 0.5); }
+
+.twitter:hover {
+  background-color: rgba(0, 172, 237, 0.5); }
 
 .line {
   background-color: #5ae628; }
-  .line:hover {
-    background-color: rgba(90, 230, 40, 0.5); }
+
+.line:hover {
+  background-color: rgba(90, 230, 40, 0.5); }
 
 .pocket {
   background-color: #ef4056; }
-  .pocket:hover {
-    background-color: rgba(239, 64, 86, 0.5); }
+
+.pocket:hover {
+  background-color: rgba(239, 64, 86, 0.5); }
 
 .btn {
   width: 30px;
@@ -212,10 +231,11 @@ main {
   cursor: pointer;
   box-shadow: 0px 2px #000000;
   transition: all 0.5s; }
-  .btn:active {
-    position: relative;
-    top: 2px;
-    box-shadow: none; }
+
+.btn:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none; }
 
 .profile {
   margin-top: 40px;
@@ -224,20 +244,23 @@ main {
   padding: 0 10px;
   background-color: white;
   font-family: "Courier New"; }
-  .profile img {
-    width: 75%;
-    height: auto;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 0 10px;
-    border-radius: 50%; }
-  .profile p {
-    display: inline-block;
-    padding-left: 5px;
-    width: 50%; }
-  .profile h3 {
-    display: inline-block;
-    width: 50%; }
+
+.profile img {
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-radius: 50%; }
+
+.profile p {
+  display: inline-block;
+  padding-left: 5px;
+  width: 50%; }
+
+.profile h3 {
+  display: inline-block;
+  width: 50%; }
 
 .profiletext {
   padding: 0 10px 20px;
@@ -258,12 +281,17 @@ footer {
 .footer-right {
   float: right;
   transition: all 0.5s; }
-  .footer-right a {
-    color: #33ff99;
-    line-height: 50px;
-    padding: 0 25px;
-    display: inline; }
-    .footer-right a:hover {
-      color: rgba(51, 255, 153, 0.5); }
+
+.footer-right a {
+  color: #33ff99;
+  line-height: 50px;
+  padding: 0 25px;
+  display: inline; }
+
+.footer-right a:hover {
+  color: rgba(51, 255, 153, 0.5); }
+
+/*# sourceMappingURL=stylesheet.css.map */
+/*# sourceMappingURL=stylesheet.scss.map */
 
 /*# sourceMappingURL=stylesheet.css.map */
