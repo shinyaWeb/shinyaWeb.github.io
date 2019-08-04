@@ -12,22 +12,19 @@
   .top-wrapper h1 {
     font-size: 40px;
     letter-spacing: 4px;}
-  .profiletext p {
-    font-size: 10px;
-  }
+  .share p {
+    font-size: 10px;}
   .author {
-    font-size: 12px;
-  }
+    font-size: 12px;}
 }
 /* スマホ向けレイアウト */
 @media all and (max-width: 875px) {
   .top-wrapper h1 {
     font-size: 30px;
     letter-spacing: 3px; }
-  .profiletext p {
-    font-size: 20px;
+  .share p {
+    font-size: 8px;
   }
  .author {
-   font-size: 25px;
-  }
+   font-size: 10px;}
 }
