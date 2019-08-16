@@ -1,7 +1,7 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1140px) {
   .header-left {
-    font-size: 20px; }
+    font-size: 18px; }
 
   .header-right {
     font-size: 18px; }
