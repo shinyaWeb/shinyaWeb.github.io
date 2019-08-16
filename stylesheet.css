@@ -27,6 +27,7 @@ header {
 
 .header-right {
   float: right;
+  font-size: 20px;
   transition: all 0.5s; }
 
 .header-right a {
