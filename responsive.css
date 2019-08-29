@@ -34,4 +34,6 @@
     font-size: 8px;}
  .author {
    font-size: 10px;}
+  .sentence {
+    display: none;}
 }
