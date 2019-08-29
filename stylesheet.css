@@ -71,6 +71,9 @@ header {
 .study {
   background-image: url(study.jpg); }
 
+.brain{
+  background-image: url(brain.jpg); }
+
 .computer-text {
   color: yellow; }
 
