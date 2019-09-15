@@ -170,6 +170,7 @@ main {
   display: inline-block;}
 
 .introductionabout p {
+  margin-right: 3px;
   display: inline-block;}
 
 .introduction a {
