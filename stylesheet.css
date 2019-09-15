@@ -267,6 +267,7 @@ main {
   width: 50%; }
 
 .profiletext {
+  float: left;
   padding: 0 10px 20px;
   width: 78%;
   text-align: left;
