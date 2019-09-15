@@ -19,7 +19,7 @@
     width:50%;}
 }
 /* スマホ向けレイアウト */
-@media all and (max-width: 510px) {
+@media all and (max-width: 720px) {
   .container {
     width: 100%;}
   .header-left {
