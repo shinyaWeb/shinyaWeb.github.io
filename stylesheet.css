@@ -45,7 +45,7 @@ header {
   margin: 0 auto; }
 
 .top-wrapper {
-  background-size: cover;
+  background-size: contain;
   height: 500px;
   color: white;
   text-align: center;
