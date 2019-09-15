@@ -162,6 +162,10 @@ main {
   float: left;
   width: 100%; }
 
+.introductionabout {
+  float: left;
+  width: 78%; }
+
 .introduction a {
   height: 80%;
   padding: 30px 30px 10px 30px;
