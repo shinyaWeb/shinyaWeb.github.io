@@ -15,13 +15,11 @@
     font-size: 12px;}
   .sentence {
     display: none;}
-  .imagebox {
-    display: none;}
 }
 /* スマホ向けレイアウト */
 @media all and (max-width: 875px) {
    .header-right a {
-     width: 33%;}
+     width: 25%;}
    .header-right {
      font-size: 13px; }
   .top-wrapper h1 {
