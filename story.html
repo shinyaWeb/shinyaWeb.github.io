@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel="stylesheet" href="responsive-nav.css">
+    <script src="responsive-nav.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-2544104213322296",
@@ -43,11 +45,17 @@
           小路真矢のホームページ
         </div>
         <div class="header-right">
-            <a href="index.html">home</a>
-            <a href="about.html">about</a>
-            <a href="#category">category</a>
-            <a href="contact.html">contact</a>
-        </div>
+         <div id="nav">
+              <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="#category">category</a></li>
+                <li><a href="contact.html">contact</a></li>
+              </ul>
+            </div>
+            <script>
+              var navigation = responsiveNav("#nav");
+            </script>
       </div>
     </header>
     <div class="top-wrapper study">
