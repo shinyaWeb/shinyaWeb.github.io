@@ -1,5 +1,7 @@
 header {
   background-color: rgba(0, 0, 0, 0.9);
   color: yellow; }
+.header-right a {
+  color: yellow;}
 
 /*# sourceMappingURL=stylesheet-computer.css.map */
