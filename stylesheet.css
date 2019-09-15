@@ -31,7 +31,7 @@ header {
   transition: all 0.5s; }
 
 .header-right a {
-  color: white;
+  color: yellow;
   line-height: 90px;
   padding: 0 25px;
   display: inline-block; }
