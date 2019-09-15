@@ -27,13 +27,6 @@
 @media all and (max-width: 720px) {
   .container {
     width: 100%;}
-  .header-left {
-    display: none;}
-  .header-right {
-    float:left;
-    width:100%;}
-  .header-right a {
-     width: 25%;}
   .top-wrapper h1 {
     font-size: 30px;
     letter-spacing: 3px; }
