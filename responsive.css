@@ -15,6 +15,8 @@
     font-size: 12px;}
   .sentence {
     display: none;}
+  .category-box {
+    width:50%;}
 }
 /* スマホ向けレイアウト */
 @media all and (max-width: 510px) {
