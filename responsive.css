@@ -17,6 +17,11 @@
     display: none;}
   .category-box {
     width:50%;}
+  .imagebox {
+    width: 60%;
+    text-align:center;}
+  .introductionabout {
+    width:75%;}
 }
 /* スマホ向けレイアウト */
 @media all and (max-width: 720px) {
@@ -42,4 +47,9 @@
     display: none;}
   .category-box {
     width:100%;}
+  .imagebox {
+    width: 60%;
+    text-align:center;}
+  .introductionabout {
+    width:75%;}
 }
