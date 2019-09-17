@@ -37,6 +37,9 @@ header {
   padding: 0 25px;
   display: inline-block; }
 
+.header-right li {
+  background-color: rgba(51, 255, 153, 0.9);}
+
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.5); }
 
