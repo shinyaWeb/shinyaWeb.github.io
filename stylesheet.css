@@ -34,7 +34,8 @@ header {
   color: blue;
   line-height: 90px;
   padding: 0 25px;
-  display: inline-block; }
+  display: inline-block; 
+  width: 100%;}
 
 .header-right li {
   background-color: rgba(51, 255, 153, 0.9);}
