@@ -22,6 +22,8 @@
     text-align:center;}
   .introductionabout {
     width:50%;}
+  .maincontainer {
+    padding: 0;}
 }
 /* スマホ向けレイアウト */
 @media all and (max-width: 720px) {
@@ -42,4 +44,6 @@
     width: 100%;}
   .introductionabout {
     width:100%;}
+  .maincontainer {
+    padding: 0;}
 }
