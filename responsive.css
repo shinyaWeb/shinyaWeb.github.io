@@ -25,6 +25,8 @@
 }
 /* スマホ向けレイアウト */
 @media all and (max-width: 720px) {
+  .maintext img {
+    width: 100%;}
   .container {
     width: 100%;}
   .top-wrapper h1 {
