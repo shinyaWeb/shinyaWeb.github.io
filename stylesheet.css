@@ -34,7 +34,7 @@ header {
   color: blue;
   line-height: 90px;
   padding: 0 25px;
-  display: inline-block; 
+  display: inline-block;
   width: 100%;}
 
 .header-right li {
@@ -98,6 +98,16 @@ main {
   width: 100%;
   float: left;
   padding: 0 10px 0 10px; }
+
+.maintext img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.figure {
+  text-align: center;
+}
 
 .subtitle {
   width: 100%;
@@ -163,7 +173,7 @@ main {
   width: 95%;
   height: auto;
   box-sizing: border-box;
-  margin: 0 auto; 
+  margin: 0 auto;
   border-radius: 50%;}
 
 .introduction {
