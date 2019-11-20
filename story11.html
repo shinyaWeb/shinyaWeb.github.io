@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137800113-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-137800113-1');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>プロセス全体のモジュール化とそのマージ、そして音楽などへのその応用について</title>
+    <meta property="og:title" content="1ヶぶりの更新。僕は今日大学に向かう途中でこのテーマを思い付いてこれについて少し考えていた。そしてこれはあまりに普遍的かつ伝統的なメソッドであり多くの場合で十分許容できる最適解を与えるが、人間界においてはかならずしも最も強力なコスパとクオリティのデータ構造的最適化ではないと結論した。" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://shinyaweb.github.io/story11.html" />
+    <meta property="og:image" content="https://shinyaweb.github.io/computer.jpg" />
+    <meta property="og:site_name" content="小路真矢のホームページ" />
+    <meta property="og:description" content="1ヶぶりの更新。僕は今日大学に向かう途中でこのテーマを思い付いてこれについて少し考えていた。そしてこれはあまりに普遍的かつ伝統的なメソッドであり多くの場合で十分許容できる最適解を与えるが、人間界においてはかならずしも最も強力なコスパとクオリティのデータ構造的最適化ではないと結論した。" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@dailyshinya" />
+    <meta name="twitter:player" content="@dailyshinya" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+    <link rel="stylesheet" href="stylesheet.css"><link rel="stylesheet" href="stylesheet-computer.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel="stylesheet" href="responsive-nav.css">
+    <script src="responsive-nav.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2544104213322296",
+    enable_page_level_ads: true
+  });
+</script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          小路真矢のホームページ
+        </div>
+        <div class="header-right">
+          <div id="nav">
+              <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="index.html#category">category</a></li>
+                <li><a href="contact.html">contact</a></li>
+              </ul>
+            </div>
+            <script>
+              var navigation = responsiveNav("#nav");
+            </script>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper computer">
+      <div class="container">
+        <h1  class="computer-text" id="top">小路真矢のホームページ</h1>
+        <p class="computer-text">日頃研究していることなどについて書いています。</p>
+      </div>
+    </div>
+    <main>
+      <div class="share">
+        <p>シェアする</p>
+        <a href="https://twitter.com/share?url=https://shinyaweb.github.io/story11.html&text=1ヶぶりの更新。僕は今日大学に向かう途中でこのテーマを思い付いてこれについて少し考えていた。そしてこれはあまりに普遍的かつ伝統的なメソッドであり多くの場合で十分許容できる最適解を与えるが、人間界においてはかならずしも最も強力なコスパとクオリティのデータ構造的最適化ではないと結論した。
+                 @dailyshinya" target="_blank" class="btn twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://social-plugins.line.me/lineit/share?url=https://shinyaweb.github.io/story11.html" target="_blank" class="btn line"><i class="fab fa-line"></i></a>
+        <a href="https://www.facebook.com/share.php?u=https://shinyaweb.github.io/story11.html" target="_blank" class="btn facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://getpocket.com/edit?url=https://shinyaweb.github.io/story11.html" target="_blank" class="btn pocket"><i class="fab fa-get-pocket"></i></a>
+        <a href="https://twitter.com/dailyshinya?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @dailyshinya</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="maincontainer">
+        <div class="subtitle">
+          <h1>プロセス全体のモジュール化とそのマージ、そして音楽などへのその応用について</h1>
+          <p><i class="fas fa-calendar-check"></i> 2019/10/29</p>
+        </div>
+        <div class="article">
+          <div class="maintext">
+            僕は今日大学に向かう途中でこのテーマを思い付いて、これについて少し考えてみた。これはその思考の遍歴である。
+            題名の意味については読んでいくうちに理解してもらえると思う。<br><br><br>
+            どんな仕事や作業でも、役割分担をした方が効率がいいというのは周知の事実である。
+            例えば3人で食事の支度をするなら、1人はテーブルを片付けて食器を並べる、1人は食材を切る、
+            1人は切られた食材を調理するといった具合に役割を分担すると、それぞれが１つのことに専念できてコスパがいい。
+            これは優れた作業のモジュール化とマージの例である。それぞれの人が独立したモジュールとなって作業をし、
+            素早く準備を済ませ最終的にみんなで食事を摂るという、無駄の無いマージを達成している。
+            このようにあるプロセスにおけるモジュール化とマージの最適解を探す問題を考えるにあたって
+            ”独立した”と”無駄の無い”という二つの指標が重要になる。
+            それでは、まずはじめに僕がこれまで用いたモジュールやマージといった言葉の具体的な意味を示そうと思う。<br><br><br>
+            モジュールというのは”それ単体が何らかの与えられた作業を行うもの”である。
+            上の食事の支度の例で言えば、1人目は台布巾と食器が与えられ、テーブルを綺麗にして食器を3人分配置する。
+            2人目は手を加える前の食材が与えられ、それを切る。
+            3人目は切られた食材を与えられ、それを調理する。といった具合にそれぞれの作業が明確に指示されている。
+            よってこれら3人を3つのモジュールと見なすことができる。
+            そしてモジュールが独立しているというのは、そのモジュールの作業が他のモジュールの作業と干渉せず、
+            すなわち他のモジュールの作業に影響を受けずに完結しており、そのモジュール単体で、インプットを与えればアウトプットが得られるということである。
+            上の食事の支度の各モジュールでは、モジュール1(1人目)は完全に独立している。
+            モジュール2と3(2人目と3人目)は、モジュール3の作業を実行するにあたって、
+            インプットとして切られた食材が必要なのだが、これはモジュール2のアウトプットであるので、一見作業が干渉しているように思われる。
+            しかし、そのモジュール単体で、インプットを与えれば、アウトプットが得られるという条件を満たしているのでやはりそれぞれ独立である。<br><br><br>
+            各モジュールが独立に作業をこなした後、最後に準備の整ったテーブルに料理が配置され楽しい食事が始まる。
+            この最後の、各モジュールとそのアウトプットの合体がマージ(結合)である。
+            これは"無駄の無い"マージであるが、逆に無駄のある(摩擦のある)マージ(エラー)とはどのようなものだろうか。
+            それは例えば、作業を終えたモジュール1が追加の作業としてモジュール3を手伝う場合などに起こり得る。
+            手伝い方が例えば、目的の料理の半分の量の調理を受け持つといった場合、モジュール1、3の味付けが異なり、
+            最後のマージにおいて味が台無しになる可能性がある。<br><br><br>
+            どんな仕事や作業においても、費用対効果を追求するならこれを模倣するべきだろう。
+            プロセスを最適にモジュール化することでコスパは最良となる。
+            そして、コスパがいいということだけでなく、
+            そうした上手く組織的に独立したモジュールがマージされた作品は間違いなく洗練されたクオリティをもつ。<br><br><br>
+            このメソッドはバンド練習にも応用出来る。
+            バンドではしばしばグルーヴということが問題になるが、グルーヴ感を高めるためにこれを活用できる。
+            ここではコピーの場合に限って説明する(オリジナルの場合へのメソッドの応用は今後必要になったら追記する)。<br><br><br>
+            コピーではまず、それぞれのパートが演奏手順を身体に覚えさせる段階に入る。
+            そこでそれぞれが独立したモジュールになることを心掛け、最後のマージのときにエラーを起こさないようにする。
+            つまり、合奏になったときに不一致が生まれるようなアドリブなどを避けつつ楽曲を身体にインプットする。
+            また、当たり前のことだが、何事においてもインプットは1人で行った方が効率がいい。集中力が維持されやすいからである。
+            そして、それぞれのパートが独自に手順のインプットを終えたら、アウトプットを共有しあってマージする段階に入る。
+            まずは合奏をする。上の手順に従って進んでいれば、この時点での完璧なマージはありえないはずである。
+            ここでグルーヴを高めるためには意識の言語化が必要になる。
+            つまり、バンドでミーティングを行い、全パートで曲の場面毎の前乗りや後ろ乗り、強弱、またその加減、程度を共有する。
+            それ以降はマージの最適化を行いエラー箇所をひたすらデバッグしていく。
+            以上のような手順はまさに”プロセス全体のモジュール化とそのマージ”メソッドの応用であり、
+            勿論今回例に挙げたもの以外にもほとんどの仕事に応用出来る。<br><br><br>
+            現代における個人の可処分時間と可処分所得の最適化という問題を解決する際にも当然必須のメソッドになるはずである。<br><br><br>
+            以下は書いている最中に疑問に思ったことである。
+            今回出てきた3人の食事の支度問題で提示した解答例は、フローチャート的に見たとき間違いなく3人の食事の支度における最適解である。
+            しかし、コンピュータ1台で実行する、プログラムのコードにおける各モジュールとは異なり、この問題の各モジュールはある意味それぞれがコンピュータであると言える。つまり、コンピュータ1台ではメモリが限られるためフローチャート的なプログラムが一般的だが、
+            モジュール自体がコンピュータであるならば、それぞれがメモリをもっているので作業の並行処理が可能になる。<br><br><br>
+            これが示すことは、3人の食事の支度問題の最適解は、並行処理的観点から見ると今回挙げた解答例とは異なりそうだということである。
+            その場合の最適解は、モジュール2のアウトプット=モジュール3のインプットとなってしまっているので、何らかの方法で
+            モジュール3のインプットを代替させるような解で与えられると予想される。
+            つまり、何らかの方法でモジュール3のインプットを擬似的に存在させることで、
+            本来モジュール2のアウトプットが無ければ実行されないモジュール3の処理を並行で実行させるような解が存在するだろう。
+            </div>
+          <div class="homelink">
+              <a href="index.html">ホームへ</a>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-left">
+          小路真矢のホームページ
+        </div>
+        <div class="footer-right">
+          <a href="#top">トップへ戻る</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
