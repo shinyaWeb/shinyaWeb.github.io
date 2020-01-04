@@ -1,2 +1,2 @@
 # shinyaWeb.github.io
-ホームページを構成するHTMLとCSSのコード一覧です。
+Shinya KojiのWebページを構成するHTML/CSSのコード及び画像データ一覧です。
