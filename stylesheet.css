@@ -263,7 +263,7 @@ footer {
   transition: all 0.5s; }
 
 .footer-right a {
-  color: yellow;
+  color: black;
   line-height: 50px;
   padding: 0 25px;
   display: inline; }
