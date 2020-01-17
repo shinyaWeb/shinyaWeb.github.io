@@ -25,24 +25,6 @@ header {
   font-size: 20px;
   line-height: 90px; }
 
-.header-right {
-  float: right;
-  font-size: 20px;
-  transition: all 0.5s; }
-
-.header-right a {
-  color: blue;
-  line-height: 90px;
-  padding: 0 25px;
-  display: inline-block;
-  width: 100%;}
-
-.header-right li {
-  background-color: rgba(51, 255, 153, 0.9);}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.5); }
-
 .container {
   width: 75%;
   padding: 0 15px;
@@ -73,23 +55,8 @@ header {
 .computer {
   background-image: url(computer.jpg); }
 
-.study {
-  background-image: url(study.jpg); }
-
-.brain{
-  background-image: url(brain.jpg); }
-
-.psycho{
-  background-image: url(psychology.jpg); }
-
 .computer-text {
   color: yellow; }
-
-.study-text {
-  color: white; }
-
-.psycho-text {
-  color: #00ffff}
 
 main {
   margin-bottom: 20px; }
@@ -296,7 +263,7 @@ footer {
   transition: all 0.5s; }
 
 .footer-right a {
-  color: #33ff99;
+  color: yellow;
   line-height: 50px;
   padding: 0 25px;
   display: inline; }
