@@ -49,9 +49,6 @@ header {
 .top-wrapper p {
   opacity: 0.8; }
 
-.sea {
-  background-image: url(photo0000-1984.jpg); }
-
 .computer {
   background-image: url(computer.jpg); }
 
@@ -172,29 +169,6 @@ main {
   margin: 0;
   padding: 3px 0 10px 30px; }
 
-.category-list {
-  text-align: center; }
-
-.category-box {
-  float: left;
-  width: 20%;
-  height: auto;
-  position: relative;
-  text-align: center; }
-
-.category-box img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%; }
-
-.category-box h3 {
-  font-family: "Courier New";
-  letter-spacing: 5px;
-  position: absolute;
-  top: 40%;
-  width: 100%;
-  z-index: 10; }
-
 .share {
   width: 100%;
   padding: 10px 0px 10px 10px;
@@ -269,7 +243,7 @@ footer {
   display: inline; }
 
 .footer-right a:hover {
-  color: rgba(51, 255, 153, 0.5); }
+  color: rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=stylesheet.css.map */
 /*# sourceMappingURL=stylesheet.scss.map */
