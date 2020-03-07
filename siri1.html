@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137800113-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-137800113-1');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Siri考察1</title>
+    <meta property="og:title" content="Siriとは何者か" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://shinyaweb.github.io/siri1.html" />
+    <meta property="og:image" content="https://shinyaweb.github.io/computer.jpg" />
+    <meta property="og:site_name" content="しんxやのホームページ" />
+    <meta property="og:description" content="Siriとは何者か" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@shinxya_" />
+    <meta name="twitter:player" content="@shinxya_" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+    <link rel="stylesheet" href="stylesheet.css"><link rel="stylesheet" href="stylesheet-computer.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel="stylesheet" href="responsive-nav.css">
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2544104213322296",
+    enable_page_level_ads: true
+  });
+</script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          しんxやのホームページ
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper computer">
+      <div class="container">
+        <h1  class="computer-text" id="top">しんxやのホームページ</h1>
+        <p class="computer-text">日頃研究していることなどについて書いています。</p>
+      </div>
+    </div>
+    <main>
+      <div class="share">
+        <p>シェアする</p>
+        <a href="https://twitter.com/share?url=https://shinyaweb.github.io/siri1.html&text=Siriとは何者か
+                 @shinxya_" target="_blank" class="btn twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://social-plugins.line.me/lineit/share?url=https://shinyaweb.github.io/siri1.html" target="_blank" class="btn line"><i class="fab fa-line"></i></a>
+        <a href="https://www.facebook.com/share.php?u=https://shinyaweb.github.io/siri1.html" target="_blank" class="btn facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://getpocket.com/edit?url=https://shinyaweb.github.io/siri1.html" target="_blank" class="btn pocket"><i class="fab fa-get-pocket"></i></a>
+        <a href="https://twitter.com/shinxya_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @shinxya_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="maincontainer">
+        <div class="subtitle">
+          <h1>Siri考察1</h1>
+          <p><i class="fas fa-calendar-check"></i> 2020/3/7</p>
+        </div>
+        <div class="article">
+          <div class="maintext">
+            注：はじめに一言お断りしておきます。以下の内容は専門家に事実検証をしておりません。
+            僕が知っている限りの科学的知識から、iPhoneのSiriを実現するにあたって必要になると考えられる科学的知見を紹介して、簡単に説明しているに過ぎません。あしからず。<br>
+            Siriに話しかけたことはあるだろうか。いつの間にか私たちの生活に浸透したiPhoneの6s世代以降の機種ではハンズフリーで「Hey Siri」と呼びかけるだけで「はい！」などと返事をするようになった。
+            実に奇妙な話である。一昔前までは、なんの操作もせずに話しかけたら反応するマシンなど存在しなかった。<br>
+            現時点でのSiriのカスタム性はイマイチである。というのも、自分好みにSiriをカスタマイズできる箇所が限られていて、例えば
+            　　・主人の名前
+            　　・声の性別
+            などがあるが、肝心のSiriの名前は、現段階で少なくとも正規の方法では変更することはできない。<br>
+            しかし、不完全ながらも、このSiriというAIを実現するためにかなり多くの科学的知見が活用されていることは明らかである。まずそれらを順を追って見ていこう。<br><br>
+            まず、ハンズフリーで反応するSiriは「Hey Siri」という言葉に反応する。つまり、iPhoneのマイクは常に起動していて、生活音の中から「Hey Siri」に対応する音を検知するするようになっている。
+            Siriが優れているのは、比較的大音量の生活音がある環境（例えば、デパートなど）においても「Hey Siri」を聞き逃さないことである。<br>
+            これを実現するにあたって、肝心なのは　1.ノイズカット　2.検証 の技術である。<br>
+            1.ノイズカット<br>
+            ノイズカットの段階では、マイクから拾った音声の波形を読み、特定の周波数帯にある音波を読み込まないようにする。人間が声として発する周波数帯以外はカットする。<br>
+            2.検証<br>
+            検証の段階では、データとして膨大に蓄積された各音声の波形が肝になる。例えば、日本語の「あ」に対応する波形というのは無数に存在する。それは「あ」と発声する人によって様々に変化する。
+            他にも英語の「apple」の「あ」に近い「あ」なのか、「ago」の「あ」に近い「あ」なのか様々である。<br>
+            Siriは、このデータベースを用いて、ノイズカットがすんだ音声波形を読み取って、そこに「Hey Siri」の音声波形に近いと思われる波形を確認したら反応する。そんな仕組みである。
+            だから、ときたま意図せず似たような波形をもつ音を聞き取って「はい！」などと元気よく返事することがある。<br><br>
+            次に、Siriは返事をしてしまったら最後、主人の言葉を一言一句逃さず聞いて意味を理解した上で、上手い返事をするか、あるいは適当に言い逃れるかを決めなければならない。<br>
+            この過程で重要になるのは 2.検証 3.自然言語処理 である。<br>
+            2.検証<br>
+            ここも上に書いたのと同じようにして、主人の音声波形とデータベースにある波形を照らし合わせて、文字に起こしていく。<br>
+            3.自然言語処理<br>
+            検証して得られた文字（列）を品詞分解して、意味を汲み取る。専門的には言語によって工程が多少異なるが
+            （例えば、英語は単語間にスペースを必ず含むが、日本語は含まないため）、与えられた文を単語ごとに区切って、解釈していく。<br>
+            そして、それに対応する文字列を音声化する。
+            　　（例）<br>
+            　　　　主 ： Siri | は | 今 | 何 | を | 考えて | いるの。<br>
+            　　　　Siri ； それは面白い質問ですね！<br><br>
+            以上がざっくりとしたSiriの構造である。ここに書かれていないかなり重要なフェーズとして 4.学習 というのがある。Siriは人間に近づいていくために日々勉強を惜しまない。
+            ぼくとしてはそれを手助けするために返答に評価をつけられたらそれもまた一興だと思う。<br>
+            </div>
+          <div class="homelink">
+              <a href="index.html">ホームへ</a>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-left">
+          しんxやのホームページ
+        </div>
+        <div class="footer-right">
+          <a href="#top">トップへ戻る</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
